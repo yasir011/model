@@ -1,6 +1,6 @@
 {
     "name": "yasir011/model",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Eloquent models with auto validation on save and update.",
     "authors": [
         {

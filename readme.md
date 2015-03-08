@@ -12,14 +12,14 @@ WaaviModel is inspired by Ardent and Aware model validators for Eloquent. The fo
 Edit composer.json:
 
 	"require": {
-		"waavi/model": "dev-master"
+		"Yasir011/model": "dev-master"
 	},
 
-Models must extend the Waavi\Model\WaaviModel class:
+Models must extend the Yasir011\Model\WaaviModel class:
 
 	<?php
 
-		use Waavi\Model\WaaviModel;
+		use Yasir011\Model\WaaviModel;
 
 		class MyModel extends WaaviModel {
 
@@ -33,7 +33,7 @@ Models must extend the Waavi\Model\WaaviModel class:
 WaaviModel uses Laravel's [Validator class](http://laravel.com/docs/validation), therefore validation rules, custom messages and custom validation methods are all available.
 
 ```php
-use Waavi\Model\WaaviModel;
+use Yasir011\Model\WaaviModel;
 
 class Post extends WaaviModel {
 

@@ -16,7 +16,7 @@
         "classmap": [
         ],
         "psr-0": {
-            "Waavi\\Model": "src/"
+            "Yasir011\\Model": "src/"
         }
     },
     "minimum-stability": "dev"
